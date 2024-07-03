@@ -28,7 +28,7 @@ body {
   margin: 0;
   align-items: center;
   justify-content: space-evenly;
-  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Times New Roman", Times, serif;
   background: var(--bg-green);
 }
 
