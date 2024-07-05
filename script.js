@@ -158,7 +158,7 @@ function startGame() {
       document.getElementById(
         "info__player__name1"
       ).innerHTML = `${players[0].name}
-        <img src='./images/crown.png' width='20px' height='20px'>`;
+        <img src='./images/crown.png' width='20px' height='15px'>`;
     } else {
       document.getElementById("info__player__name1").innerHTML =
         players[0].name;
