@@ -154,8 +154,15 @@ function startGame() {
     players[1].name = player2Name;
     players[0].wins = 0;
     players[1].wins = 0;
-
-    document.getElementById("info__player__name1").innerHTML = players[0].name;
+    if (player1Input === "coco") {
+      document.getElementById(
+        "info__player__name1"
+      ).innerHTML = `${players[0].name}
+        <img src='./images/crown.png' width='20px' height='15px'>`;
+    } else {
+      document.getElementById("info__player__name1").innerHTML =
+        players[0].name;
+    }
 
     document.getElementById("info__player__name2").innerHTML = players[1].name;
     playerOneScore.innerHTML = players[0].wins;
